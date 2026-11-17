@@ -2,7 +2,7 @@
 
 [Source repository](https://github.com/Yosefbogo/timeline-calculator) · [Download the single-file app](https://github.com/Yosefbogo/timeline-calculator/raw/refs/heads/main/Timeline-Calculator.html)
 
-Version 1.1.0 — local processing, custom time blocks, CSV exports, optional offline app.
+Version 1.1.1 — local processing, custom time blocks, CSV exports, optional offline app.
 
 
 A standalone browser app that turns Google Timeline JSON into location hours CSV files. No AI, backend, API keys, account, npm install, or paid service required. Choose any location, radius, timezone, weekdays, and 1–12 named time blocks. A kollel preset is included.
@@ -94,3 +94,8 @@ Edit `core.js` for the parsing/calculation engine and `index.template.html` for 
 ## License
 
 MIT. You may share, modify, and publish this app. No personal location history is included.
+
+
+### 1.1.1
+
+Fixed mobile results expanding the page after calculation. Wide tables scroll horizontally inside their card; the rest of the page retains the phone width.
